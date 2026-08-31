@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4반 백과</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">4반 백과</div>
+    <div class="subtitle">우리 반의 모든 것을 기록하는 백과사전</div>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <div class="search-box">
+        <input id="searchInput" type="search" placeholder="문서를 검색하세요..." autocomplete="off">
+        <button id="searchButton">검색</button>
+      </div>
+      <div id="searchResults" class="search-results"></div>
+    </section>
+
+    <section class="popular">
+      <h2>인기 문서</h2>
+      <ul>
+        <li><a href="articles/meme.html">밈</a></li>
+        <li><a href="articles/news.html">뉴스</a></li>
+        <li><a href="articles/history.html">역사</a></li>
+      </ul>
+    </section>
+
+    <section class="categories">
+      <h2>카테고리</h2>
+      <div class="category-grid">
+        <a class="category-card" href="articles/meme.html">밈</a>
+        <a class="category-card" href="articles/news.html">뉴스</a>
+        <a class="category-card" href="articles/history.html">역사</a>
+      </div>
+    </section>
+
+    <section class="request">
+      <h2>문서 추가 요청</h2>
+      <p>새로운 문서가 필요하다면 아래 버튼을 눌러 요청해주세요.</p>
+      <a class="request-button" href="mailto:aiden24-12@naver.com?subject=4반%20백과%20문서%20추가%20요청">
+        문서 추가 요청하기
+      </a>
+      <p class="notice">※ 현재 사이트에는 관리자만 직접 문서를 추가할 수 있습니다.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>4반 백과 · Class 4 Encyclopedia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
